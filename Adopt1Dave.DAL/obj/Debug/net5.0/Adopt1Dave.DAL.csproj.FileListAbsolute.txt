@@ -1,0 +1,15 @@
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\bin\Debug\net5.0\Adopt1Dave.DAL.deps.json
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\bin\Debug\net5.0\Adopt1Dave.DAL.runtimeconfig.json
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\bin\Debug\net5.0\Adopt1Dave.DAL.runtimeconfig.dev.json
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\bin\Debug\net5.0\Adopt1Dave.DAL.dll
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\bin\Debug\net5.0\ref\Adopt1Dave.DAL.dll
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\bin\Debug\net5.0\Adopt1Dave.DAL.pdb
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\obj\Debug\net5.0\Adopt1Dave.DAL.csproj.AssemblyReference.cache
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\obj\Debug\net5.0\Adopt1Dave.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\obj\Debug\net5.0\Adopt1Dave.DAL.AssemblyInfoInputs.cache
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\obj\Debug\net5.0\Adopt1Dave.DAL.AssemblyInfo.cs
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\obj\Debug\net5.0\Adopt1Dave.DAL.csproj.CoreCompileInputs.cache
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\obj\Debug\net5.0\Adopt1Dave.DAL.dll
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\obj\Debug\net5.0\ref\Adopt1Dave.DAL.dll
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\obj\Debug\net5.0\Adopt1Dave.DAL.pdb
+D:\TFTic\NET_BI_SHAREPOINT\Adopt1Dave\Adopt1Dave.DAL\obj\Debug\net5.0\Adopt1Dave.DAL.genruntimeconfig.cache
