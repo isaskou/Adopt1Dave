@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Adopt1Dave.DAL.Entities
 {
-    class Skill
+    public class Skill
     {
+        public int SkillId { get; set; }
+        public string Name { get; set; }
+
+        public virtual SkillCategory SkillCategory { get; set; }
+        public virtual IEnumerable<UserSkill> UserSkills { get; set; }
+
     }
 }

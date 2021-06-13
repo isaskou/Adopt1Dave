@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Adopt1Dave.DAL.Entities
 {
-    class Salary
+    public class Salary
     {
+        public int SalaryId { get; set; }
+
+        public string Period { get; set; }
+
+        public IEnumerable<UserSalary> UserSalaries { get; set; }
+ 
     }
 }
