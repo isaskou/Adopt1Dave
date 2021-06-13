@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var MenuItem = new[]
+    {
+        new
+        {
+            Name="Home",
+            Controller="Home",
+            Action="Index",
+            Area=""
+        },
+        //new
+        //{
+        //    Name="S'enregistrer",
+        //    Controller="User",
+        //    Action="Create",
+        //    Area=""
+
+        //},
+        new
+        {
+            Name="Les Daves",
+            Controller="User",
+            Action="Create",
+            Area=""
+
+        }
+
+    };
+}
+
+<link rel="stylesheet" href="~/css/site.css" />
+
+<nav class="navbar navbar-expand-md navbar-light bg-white fixed">
+    <div class="container-fluid nav-external align-items-center justify-content-center justify-content-lg-start">
+        <a class="navbar-brand" asp-controller="Home" asp-action="Index">Adopt 1 Dave</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                @foreach (var item in MenuItem)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                           asp-controller="@item.Controller" asp-action="@item.Action" asp-area="@item.Area">
+                            @item.Name
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+        @*<form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>*@
+        <div class="text-end">
+            <a type="button" class="btn btn-outline-warning me-2" asp-controller="User" asp-action="Login">Login</a>
+            <a type="button" class="btn btn-warning" asp-controller="User" asp-action="Create">Register</a>
+        </div>
+    </div>
+</nav>
