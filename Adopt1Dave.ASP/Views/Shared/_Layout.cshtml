@@ -16,6 +16,21 @@
         <div class="container">
             <main role="main" class="content">
                 <hr />
+                @if (TempData["success"] != null)
+                {
+                    // message vert
+                    <div class="alert alert-success">
+                        <p>@TempData["success"]</p>
+                    </div>
+                }
+                else if (TempData["error"] != null)
+                {
+                    // message rouge
+                    <div class="alert alert-danger">
+                        <p>@TempData["error"]</p>
+                    </div>
+                }
+
                 @RenderBody()
             </main>
         </div>
